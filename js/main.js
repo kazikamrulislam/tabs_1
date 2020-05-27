@@ -1,7 +1,8 @@
-function openCity(evt, cityName) {
     let i, tabcont, tablink;
-
     tabcont = document.getElementsByClassName("tabcont");
+    tabcont[0].style.display = "block";
+
+function openCity(evt, cityName) {
     for(i = 0; i < tabcont.length; i++) {
         tabcont[i].style.display = "none";
     }
